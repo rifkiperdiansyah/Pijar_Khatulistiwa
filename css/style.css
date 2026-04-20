@@ -231,6 +231,25 @@ font-size: 0.8rem;
 padding: 6px 10px;
 }
 
+#penginapan .card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+}#penginapan .card-img-top {
+  height: 220px; /* Tinggi gambar lebih proporsional */
+  object-fit: cover;
+}
+
+#penginapan .card-body {
+  padding: 1.5rem; /* Memberi ruang lebih lega */
+}
+
+/* Memperbaiki ikon dan teks di dalam list */
+#penginapan .card-body ul li {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 0.9rem;
+}
 
 /* 🔧 UPDATE MOBILE CARD TEXT */
 @media (max-width: 576px) {
@@ -259,5 +278,12 @@ padding: 0 1rem; /* Supaya teks tidak mentok ke pinggir */
 
 #cardContainer .card {
   min-width: calc(50% - 1rem);
+}
+#penginapan .card-img-top {
+  height: 180px;
+}
+
+#penginapan h2 {
+  font-size: 1.5rem;
 }
 }
